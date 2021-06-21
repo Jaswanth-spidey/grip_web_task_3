@@ -1,0 +1,60 @@
+body{
+    background-image: url(tree-ill.png);
+    height: 100vh;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0%;
+}
+
+#nafkj{
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#mclaren{
+    text-align: center;
+    width: fit-content;
+	height: fit-content;
+    color: rgb(56, 55, 55);
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    border-radius: 10%;
+    margin-top: 1vh;
+}
+#footer {
+    background-color: #f3e5f5;
+    padding: 20px;
+    margin-top: 73.7vh;
+}
+
+#downbutton{
+  background-color: red;
+  color: white;
+  border: 2px solid black;
+  transition: 0.3s ease;
+  padding: 2vh;
+  font-weight: 600;
+}
+
+#downbutton:active{
+  background-color: blue;
+  color: white;
+  border: 2px solid blue;
+}
+
+
+
+@media (hover: hover) and (pointer: fine) {
+  #downbutton:hover{
+      background-color: blue;
+      color: white;
+      transform: scale(1.1);
+      border: 1px blue;
+  }
+}
